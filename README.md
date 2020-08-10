@@ -17,17 +17,21 @@ It could be do by using a created function or using an npm module as csvjson
 
 Besides it must responde the following:
 
-**1. Walk us through the design of your project. Why did you design your project the way you did? What difficulties did you overcome? **
+1. Walk us through the design of your project. Why did you design your project the way you did? What difficulties did you overcome?
+
 I choosed cvsjson package module, just for a few little things, my knowledge of NodeJs is almost zero, so package modules are tested algorithms that someone created to solve this kind of troubles before. Npm brings a lot of modules like this that i will use sometimes in future code so i must start to practice.
 Looking at documentation on this package module, i choosed the using stream option because it seems more complete, again its the simplest way, it gives the chance to convert csv to object like task assigment asks but it has more options to implement,it lets us convert result to array, ColumnArray or Schema too.
 The only one difficult was that i would like to use error controls but i dont know how implements it, so i just print comments in console.
 
-**How did you test your project to verify that it works? **
+2. How did you test your project to verify that it works?
+
 First, I just run node init -y to create a project, that i named csv2json
 Then i install csvjson module using 'npm -i csvjson -e'
 And then created the lab02.js script using notepad
 Finally, run 'node lab02' from prompt
 
 Thats it!
+
+3. Let us know if anything doesn't work as intended so your reviewer will know ahead of time
 
 Ill appreciatte to bring a control loop to better handle
